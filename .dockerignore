@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+
+# Environment and Secrets
+.env
+.env.*
+!.env.example
+
+# Tableau & Data (Large files)
+app/workbooks/
+app/extractors/workspaces/
+app/workspace/
+*.twbx
+*.twb
+*.hyper
+*.shp
+*.dbf
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Git & IDE
+.git
+.gitignore
+.vscode/
+.idea/
+
+# Logs
+*.log

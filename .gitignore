@@ -1,0 +1,74 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# ===============================
+# Virtual Environments
+# ===============================
+venv/
+.env/
+.env.*
+.venv/
+
+# ===============================
+# Environment / Secrets
+# ===============================
+.env
+.env.local
+.env.dev
+.env.prod
+
+# ===============================
+# Logs
+# ===============================
+*.log
+hyperd.log
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===============================
+# Tableau / BI Artifacts (GENERATED)
+# ===============================
+*.hyper
+*.twbx
+*.tdsx
+
+# If you want to keep sample workbooks, remove this line
+workbooks/**
+
+# ===============================
+# Generated Parsing / Workspace Output
+# ===============================
+app/workspace/
+output/
+tmp/
+temp/
+
+# ===============================
+# Docker
+# ===============================
+*.pid
+
+# ===============================
+# Test / Local Scripts
+# ===============================
+run_existing_parsers.py
+
+# ===============================
+# Misc
+# ===============================
+.cache/
+pytest_cache/
